@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Knewave&family=Old%20Standard%20TT&family=Rubik%20Moonrocks&family=EB%20Garamond&family=Comfortaa&display=swap");
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  display: flex;
+  gap: 100px;
+  padding: 6px 60px;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title {
+  font-family: "Knewave";
+  font-size: 32px;
+  margin-top: 32px;
+  margin-left: 19px;
+  margin-top: 32px;
+}
+
+.logo-description {
+  font-family: "Old Standard TT";
+  font-size: 24px;
+  margin-left: 19px;
+}
+
+.call {
+  display: flex;
+  margin-top: 32px;
+}
+
+.call-info {
+  font-family: "Old Standard TT";
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.address {
+  display: flex;
+  margin-top: 32px;
+}
+
+.address-info {
+  font-family: "Old Standard TT";
+  font-size: 20px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #d9d9d9;
+  padding: 20px 0;
+  gap: 90px;
+}
+
+.header-nav a {
+  font-family: "Rubik Moonrocks";
+  font-size: 30px;
+  text-decoration: none;
+  color: #d64e87;
+}
+
+.centered-content {
+  margin: 0 auto;
+  max-width: 1468px;
+}
+
+.dark-background {
+  background-color: #d9d9d9;
+}
+
+.text-decoration {
+  text-align: center;
+  font-family: "Lobster";
+  font-size: 40px;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+
+.featured-cakes {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  grid-gap: 55px 103px;
+}
+
+.fillings {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.button {
+  font-family: "Old Standard TT";
+  font-size: 32px;
+  text-decoration: none;
+  color: #d64e87;
+  font-weight: bold;
+  border: 3px solid #d64e87;
+  border-radius: 30px;
+  padding: 20px 30px;
+  align-self: center;
+  margin-bottom: 60px;
+}
+
+.reviews {
+  margin: 0 auto;
+  max-width: 1468px;
+}
+
+.marked-red {
+  color: #d64e87;
+}
+
+.review-cards-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 430px;
+  align-items: center;
+}
+
+.review-card-text {
+  font-family: "Old Standard TT";
+  font-size: 20px;
+  text-align: center;
+}
+
+.review-author {
+  font-weight: bold;
+}
+
+.intro {
+  padding-bottom: 95px;
+}
+
+.intro-content {
+  display: flex;
+  gap: 50px;
+}
+
+.intro-content-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.intro-content-column h2 {
+  font-family: "Comfortaa";
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.intro-content-column p {
+  font-family: "EB Garamond";
+  font-size: 24px;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content img {
+  margin: 30px 0;
+}
+
+.socials {
+  display: flex;
+  gap: 60px;
+}
+
+.socials img {
+  margin-top: 100px;
+}
+
+.contacts {
+  margin-top: 100px;
+}
+
+.contacts p {
+  font-family: "Old Standard TT";
+  font-size: 24px;
+  text-align: center;
+}
+
+.copyright p {
+  font-family: "Old Standard TT";
+  font-size: 17px;
+}
